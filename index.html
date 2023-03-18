@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="header">
+        <nav>
+            <a href="#">arvind</a>
+            <ul class="menu">
+                <a href="#">Home</a>
+                <a href="#about">About me</a>
+                <a href="#skills">skills</a>
+                <a href="#contack">Contact me</a>
+            </ul>
+        </nav>
+    </div>
+    <div class="main">
+        <div class="intro_section">
+            <h1>Hi I'm Arvind</h1>
+            <p>Welcome to my portfolio! As a web developer with expertise in React and Node.js,</p>
+            <p>I specialize in building modern and scalable web applications.</p>
+        </div>
+    </div>
+    <div id="about" class="about">
+        <h1>About me</h1>
+        <p>
+            I'm, a skilled and experienced web developer with expertise in ReactJS and NodeJS. With a passion for coding
+            anda drive to excel,
+            I has established a reputation for building high-performance, user-friendly web applications.
+        </p>
+    </div>
+    <div id="skills" class="skills">
+        <div class="nodejs">
+            <a href="#">NodeJS</a>
+            <p>Node.js is a cross-platform, open-source server environment that can run on Windows, Linux, Unix, macOS,
+                and more. Node.js is a back-end JavaScript runtime environment, runs on the V8 JavaScript Engine, and
+                executes JavaScript code outside a web browser. Wikipedia
+            </p>
+        </div>
+        <div class="reactjs">
+            <a href="#">ReactJS</a>
+            <p> React is a free and open-source front-end JavaScript library for building user interfaces based on
+                components. It is maintained by Meta and a community of individual developers and companies. Wikipedia
+            </p>
+
+        </div>
+        <div class="javascript">
+            <a href="#">javascript</a>
+            <p>JavaScript, often abbreviated as JS, is a programming language that is one of the core technologies of
+                the World Wide Web, alongside HTML and CSS. As of 2022, 98% of websites use JavaScript on the client
+                side for webpage behavior, often incorporating third-party libraries. Wikipedia
+            </p>
+        </div>
+        <div class="html">
+            <a href="#">HTML</a>
+            <p>The HyperText Markup Language or HTML is the standard markup language for documents designed to be
+                displayed in a web browser. It is often assisted by technologies such as Cascading Style Sheets and
+                scripting languages such as JavaScript. Wikipedia
+            </p>
+
+        </div>
+        <div class="css">
+            <a href="#">css</a>
+
+            <p>Cascading Style Sheets is a style sheet language used for describing the presentation of a document
+                written in a markup language such as HTML or XML. CSS is a cornerstone technology of the World Wide Web,
+                alongside HTML and JavaScript. Wikipedia
+            </p>
+
+        </div>
+        <div class="mysql">
+            <a href="#">mysql</a>
+            <p>MySQL is an open-source relational database management system. Its name is a combination of "My", the
+                name of co-founder Michael Widenius's daughter My, and "SQL", the acronym for Structured Query Language.
+                Wikipedia
+            </p>
+        </div>
+    </div>
+    <div id="contack" class="contack">
+        <label for="name">Name</label>
+        <input type="text" name="user_name" id="name" required />
+        <label for="Contact_number">Contact Number</label>
+        <input type="text" name="user_contact_number" id="Contact_number" required>
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="user_email" required>
+        <label for="message">Messahe</label>
+        <textarea name="user_message" id="message" cols="30" rows="10"></textarea>
+        <button id="submit">Submit</button>
+    </div>
+    <footer>
+        <div class="footer">
+            <p>All right reserve@2023</p>
+        </div>
+    </footer>
+    <script src="index.js"></script>
+</body>
+
+</html>

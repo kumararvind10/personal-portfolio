@@ -1,0 +1,193 @@
+html {
+    scroll-behavior: smooth;
+    /* overflow-y: hidden; */
+
+}
+
+body {
+    margin: 0;
+    background-image: url("assets/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow-y: scroll;
+
+}
+
+.header {
+    background-color: bisque;
+    margin: 0;
+    top: 0;
+    width: 100%;
+    height: 70px;
+    margin-bottom: 100px;
+    position: fixed;
+}
+
+/* nav{
+    display: flex;
+} */
+
+nav a {
+    /* margin: 15px 0 0 50px; */
+    padding: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    font-style: oblique;
+    font-size: x-large;
+
+}
+
+.menu {
+    margin-left: 56%;
+    list-style: none;
+    text-align: center;
+}
+
+.menu li {
+    display: inline;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+/* .main{
+    margin: 0;
+    padding: 0;
+    top: 0;
+
+} */
+
+.intro_section {
+    text-align: center;
+    color: white;
+    margin-top: 20%;
+}
+
+.intro_section p {
+    position: relative;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    /* line-height: 1.5; */
+    margin-bottom: 20px;
+
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 70px;
+    padding-top: 20px;
+}
+
+.about {
+    color: white;
+    font-size: 20px;
+    margin: 300px;
+}
+
+.about h1 {
+    text-align: center;
+}
+
+.skills {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: teal;
+    margin: 20px;
+    padding: 20px;
+}
+
+/* .Skills h1{
+    display: block;
+}  */
+
+
+.nodejs {
+    margin: 30px;
+}
+
+.reactjs {
+    margin: 30px;
+}
+
+.javascript {
+    margin: 30px;
+}
+
+.html {
+    margin: 30px;
+}
+
+.css {
+    margin: 30px;
+}
+
+.mysql {
+    margin: 30px;
+}
+
+/* .skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .skills > div {
+    flex-basis: calc(33.33% - 10px);
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+  } */
+
+.skills a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* .skills p {
+    font-size: 14px;
+    margin-top: 10px;
+  } 
+   */
+
+.contack {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    background-color: mediumspringgreen;
+}
+
+label {
+    color: #333;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"] {
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #333;
+    font-size: 16px;
+    padding: 8px 12px;
+}
+
+button {
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #333;
+    font-size: 16px;
+    padding: 8px 12px;
+    margin: 10px;
+}
